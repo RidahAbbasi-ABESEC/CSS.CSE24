@@ -1,0 +1,22 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex; /*horizontal flex direction*/
+    border: 3px, solid, grey;
+    height: 300px;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: end;
+    align-content: end;
+    gap: 10px /*vertical*/ 30px /*horizontal*/;
+}
+
+.item {
+    height: 200px;
+    width: 200px;
+    border: 2px, solid, pink;
+}

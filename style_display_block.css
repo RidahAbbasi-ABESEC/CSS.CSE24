@@ -34,12 +34,12 @@ h3 {
 
 #border {
     height: 400px;
-    width: 800px;
+    width: 700px;
     border: 2px, solid, black;
     padding: 20px;
 }
 
-div {
+/* div {
     background-color: rgba(204, 116, 116, 0.781);
     border: 2px solid black;
     padding: 20px;
@@ -53,4 +53,4 @@ img {
 #p2 {
     clear: both;
     background-color: beige;
-}
+} */
