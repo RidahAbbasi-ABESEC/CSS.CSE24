@@ -1,22 +1,31 @@
 * {
     margin: 0;
     padding: 0;
+    background-color: gray;
 }
 
 .container {
     display: flex; /*horizontal flex direction*/
-    border: 3px, solid, grey;
+    border: 3px, solid, rgb(65, 65, 65);
     height: 300px;
     flex-direction: row;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: end;
-    align-content: end;
+    flex-flow: row wrap; /*redundant in this case*/
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
     gap: 10px /*vertical*/ 30px /*horizontal*/;
+    flex-wrap: wrap;
 }
 
 .item {
     height: 200px;
     width: 200px;
     border: 2px, solid, pink;
+    flex-grow: 1;
+}
+
+.item_4 {
+    order: -1; /*movies to the first position*/
+    flex-grow: 5;
+    align-self: flex-end;
 }
